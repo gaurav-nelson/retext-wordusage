@@ -40,6 +40,10 @@
         "word",
         "usage"
     ],
+    "files": [
+    "index.json",
+    "index.js"
+  ],
     "dependencies": {
         "lodash.difference": "^4.4.0",
         "nlcst-search": "^1.0.0",
