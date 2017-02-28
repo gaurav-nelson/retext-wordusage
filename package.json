@@ -1,6 +1,6 @@
 {
     "name": "retext-wordusage",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Word usage advice pertinent to technical writing.",
     "main": "index.js",
     "scripts": {
@@ -41,9 +41,9 @@
         "usage"
     ],
     "files": [
-    "index.json",
-    "index.js"
-  ],
+        "index.json",
+        "index.js"
+    ],
     "dependencies": {
         "lodash.difference": "^4.4.0",
         "nlcst-search": "^1.0.0",
