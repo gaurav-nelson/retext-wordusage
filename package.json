@@ -1,6 +1,6 @@
 {
     "name": "retext-wordusage",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Word usage advice pertinent to technical writing.",
     "main": "index.js",
     "scripts": {
@@ -51,7 +51,7 @@
         "object-keys": "^1.0.9",
         "quotation": "^1.0.0",
         "retext": "^5.0.0",
-        "vfile-reporter": "^3.0..0"
+        "vfile-reporter": "^3.0.0"
     },
     "devDependencies": {
         "browserify": "^13.0.1",
