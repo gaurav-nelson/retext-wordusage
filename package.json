@@ -1,0 +1,28 @@
+{
+  "name": "retext-wordusage",
+  "version": "1.0.0",
+  "description": "Word usage advice pertinent to technical writing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm run lint && npm run test-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-nelson/retext-wordusage.git"
+  },
+  "keywords": [
+    "retext",
+    "tech",
+    "writing",
+    "technical",
+    "writing",
+    "word",
+    "usage"
+  ],
+  "author": "Gaurav Nelson <gnelson@redhat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaurav-nelson/retext-wordusage/issues"
+  },
+  "homepage": "https://github.com/gaurav-nelson/retext-wordusage#readme"
+}
