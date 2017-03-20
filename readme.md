@@ -20,9 +20,9 @@ var report = require('vfile-reporter');
 retext()
     .use(wordusage)
     .process([
-        'You can utilize a shorter word.',
-        'Be advised, don’t do this.',
-        'That’s the appropriate thing to do.'
+        'Read the sentence above.',
+        'Addressees are requested to be on time.',
+        'A number of reasons are there.'
     ].join('\n'), function (err, file) {
         console.log(report(file));
     });
