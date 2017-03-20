@@ -31,9 +31,9 @@ retext()
 Yields:
 
 ```txt
-   1:9-1:16  warning  Replace “utilize” with “use”                                utilize
-   2:1-2:11  warning  Remove “Be advised”                                         be-advised
-  3:12-3:23  warning  Replace “appropriate” with “proper”, “right”, or remove it  appropriate
+  1:19-1:24  warning  “Do not use to indicate a relative location in a document, as in -the above restrictions.” Replace with “previous”, “preceding”  above                     retext-wordusage
+   2:1-2:25  warning  Replace “Addressees are requested” with “please”, or remove it                                                                   addressees-are-requested  retext-wordusage
+   3:1-3:12  warning  “custom text you want to show” Replace with “many”, “some”                                                                       a-number-of               retext-wordusage
 
 ⚠ 3 warnings
 ```
