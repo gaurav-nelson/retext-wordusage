@@ -1,6 +1,6 @@
 {
     "name": "retext-wordusage",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Word usage advice pertinent to technical writing.",
     "main": "index.js",
     "scripts": {
