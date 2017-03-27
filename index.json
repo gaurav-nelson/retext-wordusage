@@ -1,32 +1,40 @@
 {
-  "a number of": {
-  	"data": ["custom text you want to show"],
-    "replace": [
-      "many",
-      "some"
-    ]
-  },
-  "above": {
- "data": ["Do not use to indicate a relative location in a document, as in -the above restrictions."],
- "replace": [
-   "previous",
-   "preceding"
- ]
-},
- "abend": {
-  "data": ["Do not use as a verb. Use only as a noun or adjective."],
-  "replace": []
-},
-  "abundance": {
-"data": ["custom stuff you want to show"],
-    "replace": [
-     
-    ]
-  },
-  "addressees are requested": {
-    "omit": true,
-    "replace": [
-      "please"
-    ]
-  }
+    "a number of": {
+        "data": ["custom text you want to show"],
+        "replace": [
+            "many",
+            "some"
+        ]
+    },
+    "above": {
+        "data": ["Do not use to indicate a relative location in a document, as in -the above restrictions."],
+        "replace": [
+            "previous",
+            "preceding"
+        ]
+    },
+    "active": {
+        "data": ["Do not use to describe an interface control that is available. Use available. "],
+        "replace": []
+    },
+    "about": {
+        "data": ["Do not use to mean - approximately"],
+        "replace": []
+    },
+    "abend": {
+        "data": ["Do not use as a verb. Use only as a noun or adjective."],
+        "replace": []
+    },
+    "abundance": {
+        "data": ["custom stuff you want to show"],
+        "replace": [
+
+        ]
+    },
+    "addressees are requested": {
+        "omit": true,
+        "replace": [
+            "please"
+        ]
+    }
 }
