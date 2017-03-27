@@ -13,6 +13,7 @@ npm install retext-wordusage
 ## Usage
 
 ```js
+require('unist-util-position');
 var retext = require('retext');
 var wordusage = require('retext-wordusage');
 var report = require('vfile-reporter');
