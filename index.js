@@ -42,16 +42,16 @@ function wordusage(options) {
 
             if (!replace.length) {
                 if (pattern.omit) {
-                    reason = 'Remove ' + value;
+                    reason = data[0] + ' Remove ' + quotation(value);
                 } else {
-                    reason = quotation(data[0], '“', '”');
+                    reason = data[0];
                 }
             } else {
-                if (pattern.omit) {
-                    reason = 'Replace ' + value + ' with ' + quotation(replace, '“', '”').join(', ') + '.';
-                } else {
-                    reason = quotation(data[0], '“', '”') + ' Replace with ' + quotation(replace, '“', '”').join(', ') + '.';
-                }
+                //if (pattern.omit) {
+                // reason = 'Replace ' + value + ' with ' + quotation(replace, '“', '”').join(', ') + '.';
+                //  } else {
+                reason = data[0] + ' Replace with ' + quotation(replace, '“', '”').join(', ') + '.';
+                // }
             }
 
             message = file.warn(reason, {

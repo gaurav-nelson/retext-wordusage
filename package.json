@@ -1,31 +1,10 @@
 {
     "name": "retext-wordusage",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Word usage advice pertinent to technical writing.",
     "main": "index.js",
     "scripts": {
-        "build": "npm run build-md && npm run build-bundle && npm run build-mangle",
-        "build-bundle": "browserify index.js --bare -s retextwordusage > retext-wordusage.js",
-        "build-mangle": "esmangle retext-wordusage.js > retext-wordusage.min.js",
-        "build-md": "remark . --quiet --frail",
-        "lint": "xo",
-        "test": "npm run build && npm run lint && npm run test-coverage",
-        "test-api": "node test.js",
-        "test-coverage": "nyc --reporter lcov tape test.js"
-    },
-    "xo": {
-        "space": true,
-        "rules": {},
-        "ignores": [
-            "retext-wordusage.js",
-            "retext-wordusage.min.js"
-        ]
-    },
-    "nyc": {
-        "check-coverage": true,
-        "lines": 100,
-        "functions": 100,
-        "branches": 100
+        "test-api": "node test.js"
     },
     "repository": "https://github.com/gaurav-nelson/retext-wordusage.git",
     "keywords": [
@@ -51,35 +30,9 @@
         "vfile-reporter": "^3.0.0"
     },
     "devDependencies": {
-        "browserify": "^13.0.1",
-        "esmangle": "^1.0.1",
-        "nyc": "^7.1.0",
-        "remark-cli": "^1.0.0",
-        "remark-comment-config": "^4.0.0",
-        "remark-github": "^5.0.0",
-        "remark-lint": "^4.0.0",
-        "remark-validate-links": "^4.0.0",
-        "retext": "^3.0.0",
-        "unist-util-position": "^3.0.0",
-        "tape": "^4.0.0",
-        "xo": "^0.16.0"
     },
     "directories": {},
     "optionalDependencies": {},
-    "remarkConfig": {
-        "output": true,
-        "plugins": {
-            "lint": {
-                "heading-increment": false
-            },
-            "github": null,
-            "comment-config": null,
-            "validate-links": null
-        },
-        "settings": {
-            "bullet": "*"
-        }
-    },
     "author": "Gaurav Nelson <gnelson@redhat.com>",
     "license": "MIT",
     "bugs": {
